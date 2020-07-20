@@ -11,6 +11,10 @@
         width: 90vw;
         height: 90vw * 1.5;
     }
+    @media screen and (orientation: landscape){
+        width: 35vw;
+        height: 35vw * 1.5;
+    }
     h2 {
         font-family: map-get($style, restaurant-font);
         font-size: map-get($style, restaurant-corps-petitM);

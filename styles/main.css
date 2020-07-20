@@ -25,8 +25,8 @@ a {
   align-items: center;
 }
 .menu__style1 {
-  width: 13.3rem;
-  height: 19rem;
+  width: 25.2vw;
+  height: 36vw;
   margin: 2rem auto 0rem;
   text-align: center;
   background-color: #ffbe93;
@@ -36,6 +36,12 @@ a {
   .menu__style1 {
     width: 90vw;
     height: 135vw;
+  }
+}
+@media screen and (orientation: landscape) {
+  .menu__style1 {
+    width: 35vw;
+    height: 52.5vw;
   }
 }
 .menu__style1 h2 {
@@ -170,8 +176,8 @@ a {
   font-weight: bold;
 }
 .menu__style2 {
-  width: 13.3rem;
-  height: 19rem;
+  width: 25.2vw;
+  height: 36vw;
   margin: 2rem auto 0rem;
   text-align: center;
   background-color: #fce0c9;
@@ -181,6 +187,12 @@ a {
   .menu__style2 {
     width: 90vw;
     height: 135vw;
+  }
+}
+@media screen and (orientation: landscape) {
+  .menu__style2 {
+    width: 35vw;
+    height: 52.5vw;
   }
 }
 .menu__style2 h2 {
@@ -322,8 +334,8 @@ a {
   color: #172c8b;
 }
 .menu__style3 {
-  width: 13.3rem;
-  height: 19rem;
+  width: 25.2vw;
+  height: 36vw;
   margin: 2rem auto 0rem;
   text-align: center;
   background-color: #ebf0f1;
@@ -333,6 +345,12 @@ a {
   .menu__style3 {
     width: 90vw;
     height: 135vw;
+  }
+}
+@media screen and (orientation: landscape) {
+  .menu__style3 {
+    width: 35vw;
+    height: 52.5vw;
   }
 }
 .menu__style3 h2 {
@@ -466,8 +484,8 @@ a {
   font-weight: bold;
 }
 .menu__style4 {
-  width: 13.3rem;
-  height: 19rem;
+  width: 25.2vw;
+  height: 36vw;
   margin: 2rem auto 0rem;
   text-align: center;
   background-color: white;
@@ -477,6 +495,12 @@ a {
   .menu__style4 {
     width: 90vw;
     height: 135vw;
+  }
+}
+@media screen and (orientation: landscape) {
+  .menu__style4 {
+    width: 35vw;
+    height: 52.5vw;
   }
 }
 .menu__style4 h2 {
@@ -633,8 +657,9 @@ a {
   background-color: #e3e5e6;
 }
 .body .container {
-  max-width: 38rem;
+  width: 75vw;
   height: 91vh;
+  height: 95vh;
   overflow: auto;
   margin: auto;
   margin-top: 2vh;
@@ -643,7 +668,14 @@ a {
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .body .container {
     margin-top: 0;
+    width: 100vw;
     height: 95vh;
+  }
+}
+@media screen and (orientation: landscape) {
+  .body .container {
+    width: 100vw;
+    margin-top: 0;
   }
 }
 
@@ -730,7 +762,7 @@ a {
 .footer {
   position: fixed;
   bottom: 2vh;
-  width: 38rem;
+  width: 75vw;
   min-height: 5vh;
   background-color: green;
   display: flex;
@@ -749,6 +781,12 @@ a {
   margin-right: 3vh;
 }
 @media screen and (max-width: 600px) {
+  .footer {
+    bottom: 0;
+    width: 100%;
+  }
+}
+@media screen and (orientation: landscape) {
   .footer {
     bottom: 0;
     width: 100%;

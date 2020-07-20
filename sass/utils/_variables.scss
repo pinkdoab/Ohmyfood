@@ -1,6 +1,7 @@
 // -------------------------- Données générales -----------------------------
 $Hpage: 100vh;
-$largeur-page: 38rem;
+//$largeur-page: 38rem;
+$largeur-page: 75vw;
 $color-body: #e3e5e6;
 $color-container: white;
 
@@ -9,7 +10,9 @@ $footer: (hauteur: 5vh, color-fond: green, color-text: gold, font: 'Prompt',  co
 $bouton: (paddingW: 2rem, paddingH: .5rem, radius: .5rem, margin: 2rem auto 1rem, color-fond: green, color-text: gold, font: 'Prompt', corps: 1.4rem, graisse: 300);
 
 // -------------------------- Données menus ---------------------------------
-$Hpetit-menu: 19rem;
+//$Hpetit-menu: 19rem;
+//$Hpetit-menu-mobile: 30rem;
+$Hpetit-menu: 36vw;
 $Hpetit-menu-mobile: 30rem;
 $Lpetit-menu: $Hpetit-menu * .7;                // rapport Hauteur/Largeur "petit menu"
 $Lpetit-menu-mobile: $Hpetit-menu-mobile * .7;  // rapport Hauteur/Largeur "petit menu" mobile
