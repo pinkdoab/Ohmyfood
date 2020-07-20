@@ -1,15 +1,15 @@
 // -------------------------- Données générales -----------------------------
 $Hpage: 100vh;
-$largeur-page: 40rem;
+$largeur-page: 38rem;
 $color-body: #e3e5e6;
 $color-container: white;
 
 $header: (hauteur: 5rem, color-fond: green, color-text: gold, font: 'Prompt', corps: 2.2rem, graisse: 600);
 $footer: (hauteur: 5vh, color-fond: green, color-text: gold, font: 'Prompt',  corps: 1rem,graisse: 300);
-$bouton: (paddingW: 2rem, paddingH: .5rem, radius: .5rem, margin: 1rem auto 2rem, color-fond: green, color-text: gold, font: 'Prompt', corps: 1.4rem, graisse: 300);
+$bouton: (paddingW: 2rem, paddingH: .5rem, radius: .5rem, margin: 2rem auto 1rem, color-fond: green, color-text: gold, font: 'Prompt', corps: 1.4rem, graisse: 300);
 
 // -------------------------- Données menus ---------------------------------
-$Hpetit-menu: 20rem;
+$Hpetit-menu: 19rem;
 $Hpetit-menu-mobile: 30rem;
 $Lpetit-menu: $Hpetit-menu * .7;                // rapport Hauteur/Largeur "petit menu"
 $Lpetit-menu-mobile: $Hpetit-menu-mobile * .7;  // rapport Hauteur/Largeur "petit menu" mobile

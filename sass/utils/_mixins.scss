@@ -2,16 +2,14 @@
 @mixin petit-menu($style) {
     width: $Lpetit-menu;
     height: $Hpetit-menu;
-    margin: 1.5rem 1rem .2rem 1rem;
+    margin: 2rem auto 0rem;
     text-align: center;
-    background-color: map-get($style, fond);        // color fond menu
+    background-color: map-get($style, fond);
     transition: opacity 2000ms;
 
     @media screen and (max-width: 600px) and (orientation: portrait){
-        max-width: 95vw;                                // agrandissement menus pour mobiles (portrait)
-        max-height: 95vw * 1.5;
-        width: $Lpetit-menu-mobile;
-        height: $Hpetit-menu-mobile;
+        width: 90vw;
+        height: 90vw * 1.5;
     }
     h2 {
         font-family: map-get($style, restaurant-font);
@@ -43,9 +41,7 @@
 }
 
 // -------------------------- Grands menus ------------------------------
-
 @mixin grand-menu($style) {
-    min-height: $Hgrand-menu;
     padding: map-get($style, padding);
     background-color: map-get($style, fond);
     @media screen  and (max-width: 600px) and (orientation: portrait) {
