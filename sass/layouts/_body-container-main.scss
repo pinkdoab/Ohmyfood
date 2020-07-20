@@ -1,0 +1,27 @@
+.body {
+    margin: 0rem;                                           // enlève la marge par défaut
+    background-color: $color-body;
+}
+.container{
+    max-width: $largeur-page;
+    height: $Hpage - map-get($footer, hauteur) - 4vh;        // ne dépasse pas la marge en bas     
+    overflow: auto;                                         // ne dépasse pas la marge en bas
+    margin: auto;                                           // centrage page
+    margin-top: 2vh;                                        // création marge haute
+    background-color: $color-container;
+    @media screen and (max-width: 600px) and (orientation: portrait){
+        margin-top: 0;                                      // enleve marge haute
+        height: $Hpage - map-get($footer, hauteur);
+    }
+}
+.main  {
+    display: flex;                                          // flexbox des menus entre eux
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    > h2 {
+        font-weight: normal;
+        margin-top: 2rem;
+    }
+}

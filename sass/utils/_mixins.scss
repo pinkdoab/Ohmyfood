@@ -1,0 +1,156 @@
+// -------------------------- Petits menus ------------------------------
+@mixin petit-menu($style) {
+    width: $Lpetit-menu;
+    height: $Hpetit-menu;
+    margin: 1.5rem 1rem .2rem 1rem;
+    text-align: center;
+    background-color: map-get($style, fond);        // color fond menu
+    transition: opacity 2000ms;
+
+    @media screen and (max-width: 600px) and (orientation: portrait){
+        max-width: 95vw;                                // agrandissement menus pour mobiles (portrait)
+        max-height: 95vw * 1.5;
+        width: $Lpetit-menu-mobile;
+        height: $Hpetit-menu-mobile;
+    }
+    h2 {
+        font-family: map-get($style, restaurant-font);
+        font-size: map-get($style, restaurant-corps-petitM);
+        color: map-get($style,restaurant-color);
+        font-weight: normal;
+        @media screen and (max-width: 600px) and (orientation: portrait) {
+            font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-menu-mobile;
+        }
+        &.degrade-texte {
+            background-image: map-get($style, restaurant-degrade);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    h3 {
+        font-family: map-get($style, hors-restaurant-font);
+        font-size: map-get($style, section-corps-petitM);
+        margin: map-get($style, section-margin-petitM);
+        color: map-get($style, section-color-petitM);
+        font-weight: normal;
+        @media screen and (max-width: 600px) and (orientation: portrait) {
+            font-size: map-get($style, section-corps-petitM) * $agrandissement-menu-mobile;
+        }
+    }
+    &:hover {
+        opacity: $opacite;     
+    }
+}
+
+// -------------------------- Grands menus ------------------------------
+
+@mixin grand-menu($style) {
+    min-height: $Hgrand-menu;
+    padding: map-get($style, padding);
+    background-color: map-get($style, fond);
+    @media screen  and (max-width: 600px) and (orientation: portrait) {
+        padding: .5rem;
+    }  
+    
+    h2, h4 {
+        font-family: map-get($style, restaurant-font);
+        font-size: map-get($style, restaurant-corps-grandM);
+        margin: map-get($style, restaurant-margin-grandM);
+        color: map-get($style, restaurant-color);
+        font-weight: $restaurant-weight;
+        &.degrade-texte {
+            background-image: map-get($style, restaurant-degrade);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    h4 {
+        font-size: map-get($style, restaurantBas-corps-grandM);
+    }
+    .component {
+        &:hover h3:after {
+            transform: scaleX(1);                
+        }
+        &__titre {
+            display: flex;                              // flexbox => filet - titre - filet
+            justify-content: space-between;
+            align-items: center;
+            margin: 2rem 0 0 0;
+            .filet-svg {
+                max-width: 28%;
+                &--inversion {
+                    transform: scaleX(-1);
+                }
+            }
+            > h3 {
+                font-family: map-get($style, hors-restaurant-font);
+                font-size: map-get($style, section-corps-grandM);
+                color: map-get($style, section-color-grandM);
+                font-weight: $restaurant-weight;
+                text-align: center;
+                margin: map-get($style, section-margin-grandM);
+                @media screen and (max-width: 600px) and (orientation: portrait) {
+                    font-size: map-get($style, section-corps-grandM) * $agrandissement-plat-mobile;
+                }
+                &:after {
+                    display: block;
+                    content: '';
+                    border-bottom: solid 1px;
+                    border-color: initial;
+                    transform: scaleX(0);
+                    transition: transform 600ms ease-in-out;
+                }
+                &.souligne-gaucheDroite:after {
+                    transform-origin: 0% 50%;
+                }
+                //&.souligne-droiteGauche:after {
+                //    transform-origin: 100% 50%;
+                //}
+            }
+        }
+        &__detail  {
+            margin: 0 1rem;                     // marge par défaut par rapport au titre
+            &--retrait {
+                margin: 0;                      // marge pour menu 1 par rapport au titre          
+            }
+            p {
+                display: flex;                  // flexbox => plat - prix
+                justify-content: space-between;
+                margin: $plat-margin-grandM;
+                font-family: map-get($style, hors-restaurant-font);
+                font-size: $plat-corps-grandM;
+                margin: $plat-margin-grandM;
+                color: $plat-color-grandM;
+                @media screen and (max-width: 600px) and (orientation: portrait) {
+                    display: block;
+                    font-size: $plat-corps-grandM * $agrandissement-plat-mobile;
+                }
+                span {
+                    margin: $plat-margin-grandM;
+                    font-family: map-get($style, hors-restaurant-font);
+                    font-size: $plat-corps-grandM;
+                    margin: $plat-margin-grandM;
+                    color: $plat-color-grandM;
+                    text-align: center;
+                    @media screen and (max-width: 600px) and (orientation: portrait) {
+                        display: block;
+                        font-size: $plat-corps-grandM * $agrandissement-plat-mobile;
+                    }
+                    &:last-child {
+                        margin-left: 1rem;      // espace entre plat et prix
+                        font-weight: bold;
+                    }
+                }
+            }
+        } 
+        &.color-A p span, h3 {
+            color: map-get($style, section-color-grandM-A);
+        }
+        &.color-B h3, p span {
+            color: map-get($style, section-color-grandM-B);
+        }
+        &.color-C h3, p{
+            color: map-get($style, section-color-grandM-C);
+        }
+    }
+}

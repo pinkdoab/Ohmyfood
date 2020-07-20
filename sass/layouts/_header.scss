@@ -1,0 +1,17 @@
+.header {
+    min-height: map-get($header, hauteur);
+    background-color: map-get($header, color-fond);
+    display: flex;
+    a {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+    h1 {
+        margin: auto;
+        font-family: map-get($header, font);
+        color: map-get($header, color-text);
+        font-size: map-get($header, corps);
+    }
+}

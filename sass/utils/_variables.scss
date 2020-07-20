@@ -1,0 +1,165 @@
+// -------------------------- Données générales -----------------------------
+$Hpage: 100vh;
+$largeur-page: 40rem;
+$color-body: #e3e5e6;
+$color-container: white;
+
+$header: (hauteur: 5rem, color-fond: green, color-text: gold, font: 'Prompt', corps: 2.2rem, graisse: 600);
+$footer: (hauteur: 5vh, color-fond: green, color-text: gold, font: 'Prompt',  corps: 1rem,graisse: 300);
+$bouton: (hauteur: 5vh, color-fond: green, color-text: gold, font: 'Prompt', corps: 1.4rem, graisse: 300);
+
+// -------------------------- Données menus ---------------------------------
+$Hpetit-menu: 20rem;
+$Hpetit-menu-mobile: 30rem;
+$Lpetit-menu: $Hpetit-menu * .7;                // rapport Hauteur/Largeur "petit menu"
+$Lpetit-menu-mobile: $Hpetit-menu-mobile * .7;  // rapport Hauteur/Largeur "petit menu" mobile
+$Lcontent-petit-menu: $Lpetit-menu * .8;
+$Hgrand-menu: $Hpetit-menu * 2.0;               // Taux d'agrandissement du "grand menu"
+$Lgrand-menu: $Hgrand-menu * .8;                // rapport Hauteur/Largeur "petit menu" 
+$Lcontent-grand-menu: $Lgrand-menu * .8;
+$agrandissement-menu-mobile: 1.5;
+$agrandissement-plat-mobile: 1.5;
+
+// -------------------------- Données bouton ---------------------------------
+$largeur-bouton: $Lpetit-menu + 5rem;
+$margin-bouton: 1rem auto 2rem;
+$radius-bouton: 10px;
+
+// ------------------ Données communes à tous les menus ----------------------
+$restaurant-weight: normal;
+
+$plat-corps-grandM: .8rem;
+$plat-margin-grandM: .2rem 0rem 0rem 0rem;
+$plat-color-grandM: black;
+
+$opacite: .3;
+$restaurant-color-eclaicie: rgb(0, 0, 0, 0.3);
+  
+// ---------------------------- Données par MENU -----------------------------
+$style1: (  
+            padding: 1rem 3rem, 
+            fond: rgb(255, 190, 147, 1),
+            restaurant-font: 'Devonshire',
+            restaurant-corps-petitM: 1.2rem,
+            restaurant-corps-grandM: 2rem,
+            restaurant-margin-petitM: 0,
+            restaurant-margin-grandM: auto,
+            restaurant-color: rgb(0, 0, 0, 1),
+
+            section-corps-petitM: 1.5rem,
+            section-corps-grandM: 1.2rem,
+            section-margin-petitM: 1rem 0rem 0rem 0rem,
+            section-margin-grandM: 0,
+            section-color-petitM: black,
+            section-color-grandM: black,
+
+            hors-restaurant-font: 'Kalam',
+
+            restaurantBas-corps-grandM: 1.5rem,
+            restaurantBas-margin-grandM:  auto,
+            restaurantBas-color-grandM: black,
+
+            logo-corps-petitM: 2rem,
+            logo-margin-petitM: 0,
+            logo-color-petitM: rgb(187, 43, 43),
+);
+
+$style2: (  
+            padding: 2rem 1rem,             
+            fond: rgb(252, 224, 201, 1),
+            restaurant-font: 'Redressed',
+            restaurant-corps-petitM: 1.4rem,
+            restaurant-corps-grandM: 2.5rem,
+            restaurant-margin-petitM: 0,
+            restaurant-margin-grandM: auto,
+            restaurant-color: black,
+
+            restaurant-degrade: linear-gradient(to right, rgb(233, 129, 10), rgb(30, 58, 180)),
+
+            section-corps-petitM: 1.5rem,
+            section-corps-grandM: 1rem,
+            section-margin-petitM: 1rem 0rem 0rem 0rem,
+            section-margin-grandM: 1.2rem 0rem 1.5rem 0rem,
+
+            section-color-petitM: rgb(233, 129, 10),
+            section-color-grandM-A:rgb(233, 129, 10),
+            section-color-grandM-B:rgb(114, 39, 163),
+            section-color-grandM-C:rgb(23, 44, 139),
+
+            hors-restaurant-font: 'Frank Ruhl Libre',
+);
+
+$style3: (  
+            padding: 2rem 1rem,     
+            fond: rgb(235, 240, 241),
+            restaurant-font: 'Cookie',
+            restaurant-corps-petitM: 1.8rem,
+            restaurant-corps-grandM: 3.5rem,
+            restaurant-margin-petitM: 0,
+            restaurant-margin-grandM: auto,
+            restaurant-color: rgb(71, 99, 160),
+
+            restaurant-degrade: radial-gradient(circle at left, #002fff, #0bb9fd),
+
+            section-corps-petitM: 1.5rem,
+            section-corps-grandM: 1rem,
+            section-margin-petitM: 1rem 0rem 0rem 0rem,
+            section-margin-grandM: 1rem 0rem .5rem 0rem,
+            section-color-petitM: #006eff,
+            section-color-grandM: black,
+
+            hors-restaurant-font: 'Kalam',
+);
+
+$style4: (  
+            padding: 2rem 1rem, 
+            fond: rgb(255, 255, 255, 1),
+            restaurant-font: 'Kaushan Script',
+            restaurant-corps-petitM: 24px,
+            restaurant-corps-grandM: 3rem,
+            restaurant-margin-petitM: 0,
+            restaurant-margin-grandM: auto,
+
+            restaurant-degrade: linear-gradient(to right, rgb(62, 151, 51), rgb(188, 230, 171)),        
+
+            section-corps-petitM: 1.5rem,
+            section-corps-grandM: 1.2rem,
+            section-margin-petitM: 1rem 0rem 0rem 0rem,
+            section-margin-grandM: 1rem 0rem .5rem 0rem,
+            section-color-petitM: rgb(110, 173, 102),
+            section-color-grandM: black,
+
+            hors-restaurant-font: 'Kalam',
+);
+
+$styleX: (
+            //padding: 1rem 3rem, 
+            //fond: rgb(255, 190, 147, 1),
+            //restaurant-font: 'Devonshire',
+            //restaurant-corps-petitM: 1.2rem,
+            //restaurant-corps-grandM: 2rem,
+            //restaurant-margin-petitM: 0,
+            //restaurant-margin-grandM: 0 auto 0 auto,
+            //restaurant-color: rgb(0, 0, 0, 1),
+
+            //restaurant-degrade: linear-gradient(to right, rgb(62, 151, 51), rgb(188, 230, 171)),   
+
+            //section-corps-petitM: 1.5rem,
+            //section-corps-grandM: 1.2rem,
+            //section-margin-petitM: 1rem 0rem 0rem 0rem,
+            //section-margin-grandM: 1.5rem 0rem .5rem 0rem,
+            //section-color-petitM: black,
+            //section-color-grandM: black,
+
+            //hors-restaurant-font: 'Kalam',
+
+            //restaurantBas-corps-grandM: 1.5rem,
+            //restaurantBas-margin-grandM:  auto,
+            //restaurantBas-color-grandM: black,
+
+            //logo-corps-petitM: 2rem,
+            //logo-margin-petitM: 0rem 0rem 0rem 0rem,
+            //logo-color-petitM: rgb(187, 43, 43),
+)
+// ¯\_(ツ)_/¯
+//  \(^Д^)/

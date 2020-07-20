@@ -1,0 +1,90 @@
+.menu{
+    box-shadow: 0px 0px 10px rgb(192, 191, 191);    // ombre sur menu
+    display: flex;                                    // flexbox a l'interieur des grands menus
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+
+    &__style1 {
+        @include petit-menu($style1);
+        &--large {
+            @include grand-menu($style1);            
+        }
+    }
+    &__style2 {
+        @include petit-menu($style2);
+        &--large {
+            @include grand-menu($style2);            
+        }
+    }
+    &__style3 {
+        @include petit-menu($style3);
+        &--large {
+            @include grand-menu($style3);            
+        }
+    }
+    &__style4 {
+        @include petit-menu($style4);
+        &--large {
+            @include grand-menu($style4);            
+        }
+    }
+    &__logo-note-haut {
+        width: 3rem;
+        margin: 0 auto;
+    }    
+    &__logo-note-bas {
+        width: 1.4rem;
+        margin-right: .5rem;
+    }
+    &__scale {
+        flex:1 ;
+    
+        display: flex;                                  // flexbox petits menus
+        flex-direction: column;
+        justify-content: center;
+        
+        transition-property: transform;
+        transform: scale(1);
+        transition-duration: 2000ms;
+        &:hover {
+           transform: scale(1.25);
+        }
+    }
+}
+.bouton {
+    width: $largeur-bouton;
+    min-height: map-get($bouton, hauteur);
+    margin: $margin-bouton;
+    border-radius: $radius-bouton;
+    display: flex;
+    background-color: map-get($bouton, color-fond);
+    p {
+        margin: auto;
+        font-family: map-get($bouton, font);
+        font-weight: map-get($bouton, graisse);
+        font-size: map-get($bouton, corps);
+        color: map-get($bouton, color-text);
+    }
+    &__pt-un {
+        opacity: 0;
+        animation: pts_suspension 1.3s infinite;
+        animation-delay: 0.0s;
+    }
+    &__pt-deux {
+        opacity: 0;
+        animation: pts_suspension 1.3s infinite;
+        animation-delay: 0.2s;
+    }
+    &__pt-trois{
+        opacity: 0;
+        animation: pts_suspension 1.3s infinite;
+        animation-delay: 0.3s;
+    }
+}
+@keyframes pts_suspension {
+      0% { opacity: 0; }
+     50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
