@@ -6,24 +6,17 @@ $color-container: white;
 
 $header: (hauteur: 5rem, color-fond: green, color-text: gold, font: 'Prompt', corps: 2.2rem, graisse: 600);
 $footer: (hauteur: 5vh, color-fond: green, color-text: gold, font: 'Prompt',  corps: 1rem,graisse: 300);
-$bouton: (hauteur: 5vh, color-fond: green, color-text: gold, font: 'Prompt', corps: 1.4rem, graisse: 300);
+$bouton: (paddingW: 2rem, paddingH: .5rem, radius: .5rem, margin: 1rem auto 2rem, color-fond: green, color-text: gold, font: 'Prompt', corps: 1.4rem, graisse: 300);
 
 // -------------------------- Données menus ---------------------------------
 $Hpetit-menu: 20rem;
 $Hpetit-menu-mobile: 30rem;
 $Lpetit-menu: $Hpetit-menu * .7;                // rapport Hauteur/Largeur "petit menu"
 $Lpetit-menu-mobile: $Hpetit-menu-mobile * .7;  // rapport Hauteur/Largeur "petit menu" mobile
-$Lcontent-petit-menu: $Lpetit-menu * .8;
 $Hgrand-menu: $Hpetit-menu * 2.0;               // Taux d'agrandissement du "grand menu"
 $Lgrand-menu: $Hgrand-menu * .8;                // rapport Hauteur/Largeur "petit menu" 
-$Lcontent-grand-menu: $Lgrand-menu * .8;
 $agrandissement-menu-mobile: 1.5;
 $agrandissement-plat-mobile: 1.5;
-
-// -------------------------- Données bouton ---------------------------------
-$largeur-bouton: $Lpetit-menu + 5rem;
-$margin-bouton: 1rem auto 2rem;
-$radius-bouton: 10px;
 
 // ------------------ Données communes à tous les menus ----------------------
 $restaurant-weight: normal;

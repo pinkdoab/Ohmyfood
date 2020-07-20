@@ -52,39 +52,5 @@
         }
     }
 }
-.bouton {
-    width: $largeur-bouton;
-    min-height: map-get($bouton, hauteur);
-    margin: $margin-bouton;
-    border-radius: $radius-bouton;
-    display: flex;
-    background-color: map-get($bouton, color-fond);
-    p {
-        margin: auto;
-        font-family: map-get($bouton, font);
-        font-weight: map-get($bouton, graisse);
-        font-size: map-get($bouton, corps);
-        color: map-get($bouton, color-text);
-    }
-    &__pt-un {
-        opacity: 0;
-        animation: pts_suspension 1.3s infinite;
-        animation-delay: 0.0s;
-    }
-    &__pt-deux {
-        opacity: 0;
-        animation: pts_suspension 1.3s infinite;
-        animation-delay: 0.2s;
-    }
-    &__pt-trois{
-        opacity: 0;
-        animation: pts_suspension 1.3s infinite;
-        animation-delay: 0.3s;
-    }
-}
-@keyframes pts_suspension {
-      0% { opacity: 0; }
-     50% { opacity: 0; }
-    100% { opacity: 1; }
-}
+
 

@@ -3,9 +3,10 @@
 
 @import "./utils/variables";
 @import "./utils/mixins";
+@import "./layouts/menu";
 
+@import "./layouts/body-container";
 
-@import "./layouts/body-container-main";
 @import "./layouts/header";
 @import "./layouts/main";
 @import "./layouts/footer";
