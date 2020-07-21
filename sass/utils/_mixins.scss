@@ -21,7 +21,7 @@
         color: map-get($style,restaurant-color);
         font-weight: normal;
         @media screen and (max-width: 600px) and (orientation: portrait) {
-            font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-menu-mobile;
+            font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-menu-portrait;
         }
         @media screen  and (orientation: landscape) {
             font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-menu-landscape;            
@@ -39,7 +39,10 @@
         color: map-get($style, section-color-petitM);
         font-weight: normal;
         @media screen and (max-width: 600px) and (orientation: portrait) {
-            font-size: map-get($style, section-corps-petitM) * $agrandissement-menu-mobile;
+            font-size: map-get($style, section-corps-petitM) * $agrandissement-menu-portrait;
+        }
+        @media screen  and (orientation: landscape) {
+            font-size: map-get($style, section-corps-petitM) * $agrandissement-menu-landscape;            
         }
     }
     &:hover {
