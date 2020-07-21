@@ -23,6 +23,9 @@
         @media screen and (max-width: 600px) and (orientation: portrait) {
             font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-menu-mobile;
         }
+        @media screen  and (orientation: landscape) {
+            font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-menu-landscape;            
+        }
         &.degrade-texte {
             background-image: map-get($style, restaurant-degrade);
             -webkit-background-clip: text;

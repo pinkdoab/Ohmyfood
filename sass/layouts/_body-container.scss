@@ -10,13 +10,13 @@
         margin-top: 2vh;                                        // création marge haute
         background-color: $color-container;
         @media screen and (max-width: 600px) and (orientation: portrait){
-            margin-top: 0;                                      // enleve marge haute
+            margin-top: 0;
             width: 100vw;
             height: $Hpage - map-get($footer, hauteur);
         }
-        @media screen and (orientation: landscape) {
-            width: 100vw;
+        @media screen  and (orientation: landscape) {
             margin-top: 0;
+            width: 100vw;
         }        
     }
 }
