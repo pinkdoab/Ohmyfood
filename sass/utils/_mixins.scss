@@ -1,19 +1,25 @@
 // -------------------------- Petits menus ------------------------------
 @mixin petit-menu($style) {
     width: $Lpetit-menu;
+    max-width: 13rem;
     height: $Hpetit-menu;
+    max-height: 18rem;
     margin: 2rem auto 0rem;
     text-align: center;
     background-color: map-get($style, fond);
     transition: opacity 2000ms;
 
-    @media screen and (max-width: 600px) and (orientation: portrait){
+    @media screen and (max-width: 600px) and (orientation: portrait) {
         width: 90vw;
+        max-width: 90vw;
         height: 90vw * 1.5;
+        max-height: 90vw * 1.5;
     }
-    @media screen and (orientation: landscape){
+    @media screen and (max-width: 900px) and (orientation: landscape) {
         width: 35vw;
+        max-width: 35vw;
         height: 35vw * 1.5;
+        max-height: 35vw * 1.5;
     }
     h2 {
         font-family: map-get($style, restaurant-font);
@@ -52,6 +58,7 @@
 
 // -------------------------- Grands menus ------------------------------
 @mixin grand-menu($style) {
+    margin-bottom: map-get($style, margin);
     padding: map-get($style, padding);
     background-color: map-get($style, fond);
     @media screen  and (max-width: 600px) and (orientation: portrait) {
@@ -64,6 +71,13 @@
         margin: map-get($style, restaurant-margin-grandM);
         color: map-get($style, restaurant-color);
         font-weight: $restaurant-weight;
+        /*@media screen and (max-width: 600px) and (orientation: portrait) {
+            font-size: map-get($style, restaurant-corps-grandM) * $agrandissement-menu-portrait;
+        }
+        @media screen  and (orientation: landscape) {
+            font-size: map-get($style, restaurant-corps-grandM) * $agrandissement-menu-landscape;            
+        }*/
+
         &.degrade-texte {
             background-image: map-get($style, restaurant-degrade);
             -webkit-background-clip: text;
@@ -96,7 +110,7 @@
                 text-align: center;
                 margin: map-get($style, section-margin-grandM);
                 @media screen and (max-width: 600px) and (orientation: portrait) {
-                    font-size: map-get($style, section-corps-grandM) * $agrandissement-plat-mobile;
+                    //font-size: map-get($style, section-corps-grandM) * $agrandissement-plat-mobile;
                 }
                 &:after {
                     display: block;
@@ -129,7 +143,7 @@
                 color: $plat-color-grandM;
                 @media screen and (max-width: 600px) and (orientation: portrait) {
                     display: block;
-                    font-size: $plat-corps-grandM * $agrandissement-plat-mobile;
+                    font-size: $plat-corps-grandM * $agrandissement-menu-portrait;
                 }
                 span {
                     margin: $plat-margin-grandM;
@@ -140,7 +154,7 @@
                     text-align: center;
                     @media screen and (max-width: 600px) and (orientation: portrait) {
                         display: block;
-                        font-size: $plat-corps-grandM * $agrandissement-plat-mobile;
+                        font-size: $plat-corps-grandM * $agrandissement-menu-portrait;
                     }
                     &:last-child {
                         margin-left: 1rem;      // espace entre plat et prix

@@ -2,6 +2,7 @@
     position: fixed;
 	bottom: 2vh;
     width: $largeur-page;
+    max-width: 40rem;
     min-height: map-get($footer, hauteur);
     background-color: map-get($footer, color-fond);
     display: flex;
@@ -18,13 +19,16 @@
     :last-child {
         margin-right: 3vh;
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) and (orientation: portrait) {
         bottom: 0;
         width: 100%;
+        max-width: 100%;
     }
-    @media screen and (orientation: landscape) {
+    @media screen and (max-width: 900px) and (orientation: landscape) {
         bottom: 0;
         width: 100%;
+        max-width: 100%;
+        height: 10vh;
     }
 }
 @keyframes anim-bouton {

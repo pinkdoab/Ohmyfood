@@ -13,10 +13,10 @@ $Hpetit-menu: 36vw;
 $Lpetit-menu: $Hpetit-menu * .7;
 
 $agrandissement-menu-portrait: 3.5;
-$agrandissement-plat-mobile: 3.5;
+//$agrandissement-plat-mobile: 3.5;
 
 $agrandissement-menu-landscape: 1.3;
-$agrandissement-plat-landscape: 1.3;
+//$agrandissement-plat-landscape: 1.3;
 
 // ------------------ Données communes à tous les menus ----------------------
 $restaurant-weight: normal;
@@ -30,17 +30,18 @@ $restaurant-color-eclaicie: rgb(0, 0, 0, 0.3);
   
 // ---------------------------- Données par MENU -----------------------------
 $style1: (  
+            margin-bottom: 3rem,
             padding: 1rem 3rem, 
             fond: rgb(255, 190, 147, 1),
             restaurant-font: 'Devonshire',
             restaurant-corps-petitM: 3vw,
-            restaurant-corps-grandM: 2rem,
+            restaurant-corps-grandM: 5vw,
             restaurant-margin-petitM: 0,
             restaurant-margin-grandM: auto,
             restaurant-color: rgb(0, 0, 0, 1),
 
             section-corps-petitM: 3vw,
-            section-corps-grandM: 1.2rem,
+            section-corps-grandM: 3vw,
             section-margin-petitM: 1rem 0rem 0rem 0rem,
             section-margin-grandM: 0,
             section-color-petitM: black,
