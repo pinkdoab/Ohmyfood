@@ -34,25 +34,25 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1 {
-    min-width: 70vw;
-    min-height: 105vw;
+    min-width: 90vw;
+    min-height: 135vw;
   }
 }
 .menu__style1 h2 {
   margin-top: 1rem;
   font-family: "Devonshire";
-  font-size: 3vw;
+  font-size: 2.7vw;
   color: black;
   font-weight: normal;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1 h2 {
-    font-size: 10.5vw;
+    font-size: 9.45vw;
   }
 }
 @media screen and (orientation: landscape) {
   .menu__style1 h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 .menu__style1 h2.degrade-texte {
@@ -73,7 +73,7 @@ a {
 }
 @media screen and (orientation: landscape) {
   .menu__style1 h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 .menu__style1:hover {
@@ -214,8 +214,8 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2 {
-    min-width: 70vw;
-    min-height: 105vw;
+    min-width: 90vw;
+    min-height: 135vw;
   }
 }
 .menu__style2 h2 {
@@ -232,7 +232,7 @@ a {
 }
 @media screen and (orientation: landscape) {
   .menu__style2 h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 .menu__style2 h2.degrade-texte {
@@ -254,7 +254,7 @@ a {
 }
 @media screen and (orientation: landscape) {
   .menu__style2 h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 .menu__style2:hover {
@@ -401,25 +401,25 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3 {
-    min-width: 70vw;
-    min-height: 105vw;
+    min-width: 90vw;
+    min-height: 135vw;
   }
 }
 .menu__style3 h2 {
   margin-top: 1rem;
   font-family: "Cookie";
-  font-size: 3.3vw;
+  font-size: 2.7vw;
   color: #4763a0;
   font-weight: normal;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3 h2 {
-    font-size: 11.55vw;
+    font-size: 9.45vw;
   }
 }
 @media screen and (orientation: landscape) {
   .menu__style3 h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 .menu__style3 h2.degrade-texte {
@@ -441,7 +441,7 @@ a {
 }
 @media screen and (orientation: landscape) {
   .menu__style3 h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 .menu__style3:hover {
@@ -580,8 +580,8 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4 {
-    min-width: 70vw;
-    min-height: 105vw;
+    min-width: 90vw;
+    min-height: 135vw;
   }
 }
 .menu__style4 h2 {
@@ -597,7 +597,7 @@ a {
 }
 @media screen and (orientation: landscape) {
   .menu__style4 h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 .menu__style4 h2.degrade-texte {
@@ -619,7 +619,7 @@ a {
 }
 @media screen and (orientation: landscape) {
   .menu__style4 h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 .menu__style4:hover {
@@ -747,14 +747,17 @@ a {
 .menu__logo-note-haut {
   width: 3rem;
   display: block;
-  margin: auto;
 }
 .menu__logo-note-bas {
   width: 1.4rem;
   margin-right: 0.5rem;
 }
 .menu__scale {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   transition-property: transform;
   transform: scale(1);
   transition-duration: 2000ms;

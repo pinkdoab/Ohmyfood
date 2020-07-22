@@ -28,14 +28,18 @@
     &__logo-note-haut {
         width: 3rem;
         display: block;
-        margin: auto;
+        //margin: auto;
     }    
     &__logo-note-bas {
         width: 1.4rem;
         margin-right: .5rem;
     }
     &__scale {
-        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
         
         transition-property: transform;
         transform: scale(1);
