@@ -47,7 +47,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1 h2 {
-    font-size: 9.45vw;
+    font-size: 4.05vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -68,7 +68,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1 h3 {
-    font-size: 10.5vw;
+    font-size: 4.5vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -103,7 +103,7 @@ a {
 }
 @media screen and (orientation: landscape) {
   .menu__style1--large h2, .menu__style1--large h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 .menu__style1--large h2.degrade-texte, .menu__style1--large h4.degrade-texte {
@@ -163,38 +163,33 @@ a {
   justify-content: space-between;
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 1.6vw;
+  font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
+  /*@media screen and (orientation: landscape) {
+      font-size: .9rem;            
+  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1--large .component__detail p {
     display: block;
-    font-size: 5.6vw;
-  }
-}
-@media screen and (orientation: landscape) {
-  .menu__style1--large .component__detail p {
-    font-size: 0.9rem;
+    font-size: 1.05rem;
   }
 }
 .menu__style1--large .component__detail p span {
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 1.6vw;
+  font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
-  color: black;
-  text-align: center;
+  /*@media screen and (orientation: landscape) {
+      font-size: .9rem;            
+  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1--large .component__detail p span {
     display: block;
-    font-size: 5.6vw;
-  }
-}
-@media screen and (orientation: landscape) {
-  .menu__style1--large .component__detail p span {
-    font-size: 0.9rem;
+    text-align: center;
+    font-size: 1.05rem;
   }
 }
 .menu__style1--large .component__detail p span:last-child {
@@ -227,7 +222,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2 h2 {
-    font-size: 9.45vw;
+    font-size: 4.05vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -249,7 +244,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2 h3 {
-    font-size: 10.5vw;
+    font-size: 4.5vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -284,7 +279,7 @@ a {
 }
 @media screen and (orientation: landscape) {
   .menu__style2--large h2, .menu__style2--large h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 .menu__style2--large h2.degrade-texte, .menu__style2--large h4.degrade-texte {
@@ -341,38 +336,33 @@ a {
   justify-content: space-between;
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Frank Ruhl Libre";
-  font-size: 1.6vw;
+  font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
+  /*@media screen and (orientation: landscape) {
+      font-size: .9rem;            
+  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2--large .component__detail p {
     display: block;
-    font-size: 5.6vw;
-  }
-}
-@media screen and (orientation: landscape) {
-  .menu__style2--large .component__detail p {
-    font-size: 0.9rem;
+    font-size: 1.05rem;
   }
 }
 .menu__style2--large .component__detail p span {
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Frank Ruhl Libre";
-  font-size: 1.6vw;
+  font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
-  color: black;
-  text-align: center;
+  /*@media screen and (orientation: landscape) {
+      font-size: .9rem;            
+  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2--large .component__detail p span {
     display: block;
-    font-size: 5.6vw;
-  }
-}
-@media screen and (orientation: landscape) {
-  .menu__style2--large .component__detail p span {
-    font-size: 0.9rem;
+    text-align: center;
+    font-size: 1.05rem;
   }
 }
 .menu__style2--large .component__detail p span:last-child {
@@ -414,7 +404,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3 h2 {
-    font-size: 9.45vw;
+    font-size: 4.05vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -436,7 +426,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3 h3 {
-    font-size: 10.5vw;
+    font-size: 4.5vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -471,7 +461,7 @@ a {
 }
 @media screen and (orientation: landscape) {
   .menu__style3--large h2, .menu__style3--large h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 .menu__style3--large h2.degrade-texte, .menu__style3--large h4.degrade-texte {
@@ -529,38 +519,33 @@ a {
   justify-content: space-between;
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 1.6vw;
+  font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
+  /*@media screen and (orientation: landscape) {
+      font-size: .9rem;            
+  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3--large .component__detail p {
     display: block;
-    font-size: 5.6vw;
-  }
-}
-@media screen and (orientation: landscape) {
-  .menu__style3--large .component__detail p {
-    font-size: 0.9rem;
+    font-size: 1.05rem;
   }
 }
 .menu__style3--large .component__detail p span {
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 1.6vw;
+  font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
-  color: black;
-  text-align: center;
+  /*@media screen and (orientation: landscape) {
+      font-size: .9rem;            
+  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3--large .component__detail p span {
     display: block;
-    font-size: 5.6vw;
-  }
-}
-@media screen and (orientation: landscape) {
-  .menu__style3--large .component__detail p span {
-    font-size: 0.9rem;
+    text-align: center;
+    font-size: 1.05rem;
   }
 }
 .menu__style3--large .component__detail p span:last-child {
@@ -592,7 +577,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4 h2 {
-    font-size: 8.75vw;
+    font-size: 3.75vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -614,7 +599,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4 h3 {
-    font-size: 10.5vw;
+    font-size: 4.5vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -648,7 +633,7 @@ a {
 }
 @media screen and (orientation: landscape) {
   .menu__style4--large h2, .menu__style4--large h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 .menu__style4--large h2.degrade-texte, .menu__style4--large h4.degrade-texte {
@@ -706,38 +691,33 @@ a {
   justify-content: space-between;
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 1.6vw;
+  font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
+  /*@media screen and (orientation: landscape) {
+      font-size: .9rem;            
+  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4--large .component__detail p {
     display: block;
-    font-size: 5.6vw;
-  }
-}
-@media screen and (orientation: landscape) {
-  .menu__style4--large .component__detail p {
-    font-size: 0.9rem;
+    font-size: 1.05rem;
   }
 }
 .menu__style4--large .component__detail p span {
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 1.6vw;
+  font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
-  color: black;
-  text-align: center;
+  /*@media screen and (orientation: landscape) {
+      font-size: .9rem;            
+  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4--large .component__detail p span {
     display: block;
-    font-size: 5.6vw;
-  }
-}
-@media screen and (orientation: landscape) {
-  .menu__style4--large .component__detail p span {
-    font-size: 0.9rem;
+    text-align: center;
+    font-size: 1.05rem;
   }
 }
 .menu__style4--large .component__detail p span:last-child {
@@ -747,6 +727,11 @@ a {
 .menu__logo-note-haut {
   width: 3rem;
   display: block;
+}
+.menu__logo-note-haut-GM {
+  width: 3rem;
+  display: block;
+  margin: auto;
 }
 .menu__logo-note-bas {
   width: 1.4rem;
@@ -807,7 +792,6 @@ a {
 }
 
 .main {
-  min-height: 81vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -825,6 +809,11 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .main .menus {
+    margin: 0;
+  }
 }
 .main .menus > h2 {
   font-weight: normal;
