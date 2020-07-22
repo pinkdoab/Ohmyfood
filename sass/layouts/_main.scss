@@ -1,6 +1,6 @@
 .main  {
-    //height: $Hpage - map-get($footer, hauteur) - 4vh - 10vh;
-    //height: unset; 
+    min-height: $Hpage - map-get($footer, hauteur) - 4vh - 10vh;
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

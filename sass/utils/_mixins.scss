@@ -10,17 +10,10 @@
     transition: opacity 2000ms;
 
     @media screen and (max-width: 600px) and (orientation: portrait) {
-        width: 90vw;
-        max-width: 90vw;
-        height: 90vw * 1.5;
-        max-height: 90vw * 1.5;
+        min-width: 70vw;
+        min-height: 70vw * 1.5;
     }
-    @media screen and (max-width: 900px) and (orientation: landscape) {
-        width: 35vw;
-        max-width: 35vw;
-        height: 35vw * 1.5;
-        max-height: 35vw * 1.5;
-    }
+    
     h2 {
         font-family: map-get($style, restaurant-font);
         font-size: map-get($style, restaurant-corps-petitM);
@@ -29,8 +22,8 @@
         @media screen and (max-width: 600px) and (orientation: portrait) {
             font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-menu-portrait;
         }
-        @media screen  and (orientation: landscape) {
-            font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-menu-landscape;            
+        @media screen and (orientation: landscape) {
+            font-size: 1.5rem;            
         }
         &.degrade-texte {
             background-image: map-get($style, restaurant-degrade);
@@ -48,7 +41,7 @@
             font-size: map-get($style, section-corps-petitM) * $agrandissement-menu-portrait;
         }
         @media screen  and (orientation: landscape) {
-            font-size: map-get($style, section-corps-petitM) * $agrandissement-menu-landscape;            
+            font-size: 1.5rem;
         }
     }
     &:hover {
