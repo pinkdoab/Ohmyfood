@@ -91,7 +91,7 @@ a {
 .menu__style1--large h2, .menu__style1--large h4 {
   text-align: center;
   font-family: "Devonshire";
-  font-size: 5vw;
+  font-size: 2rem;
   margin: auto;
   color: black;
   font-weight: normal;
@@ -130,7 +130,7 @@ a {
 }
 .menu__style1--large .component__titre > h3 {
   font-family: "Kalam";
-  font-size: 3vw;
+  font-size: 1.4rem;
   color: black;
   font-weight: normal;
   text-align: center;
@@ -811,12 +811,12 @@ a {
   align-items: center;
 }
 .main > p {
-  font-size: 1.3rem;
+  font-size: 1.53rem;
   font-weight: bold;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .main .menus {
-  margin: 0 0.7rem;
+  margin: 0 4rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

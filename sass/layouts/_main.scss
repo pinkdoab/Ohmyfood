@@ -6,12 +6,12 @@
     justify-content: space-evenly;
     align-items: center;
     > p {
-        font-size: 1.3rem;
+        font-size: 1.53rem;
         font-weight: bold;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
     .menus {
-        margin: 0 .7rem;
+        margin: 0 4rem;
         display: flex;                                  // flexbox des menus entre eux
         flex-wrap: wrap;
         flex-direction: row;
