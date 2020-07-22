@@ -1,5 +1,6 @@
 // -------------------------- Petits menus ------------------------------
 @mixin petit-menu($style) {
+    display: flex;
     width: $Lpetit-menu;
     max-width: 13rem;
     height: $Hpetit-menu;
@@ -15,6 +16,7 @@
     }
     
     h2 {
+        margin-top: 1rem;
         font-family: map-get($style, restaurant-font);
         font-size: map-get($style, restaurant-corps-petitM);
         color: map-get($style,restaurant-color);
@@ -59,17 +61,18 @@
     }  
     
     h2, h4 {
+        text-align: center;
         font-family: map-get($style, restaurant-font);
         font-size: map-get($style, restaurant-corps-grandM);
         margin: map-get($style, restaurant-margin-grandM);
         color: map-get($style, restaurant-color);
         font-weight: $restaurant-weight;
-        /*@media screen and (max-width: 600px) and (orientation: portrait) {
-            font-size: map-get($style, restaurant-corps-grandM) * $agrandissement-menu-portrait;
+        @media screen and (max-width: 600px) and (orientation: portrait) {
+            font-size: 3rem;
         }
-        @media screen  and (orientation: landscape) {
-            font-size: map-get($style, restaurant-corps-grandM) * $agrandissement-menu-landscape;            
-        }*/
+        @media screen and (orientation: landscape) {
+            font-size: 2.5rem;            
+        }
 
         &.degrade-texte {
             background-image: map-get($style, restaurant-degrade);
@@ -103,7 +106,10 @@
                 text-align: center;
                 margin: map-get($style, section-margin-grandM);
                 @media screen and (max-width: 600px) and (orientation: portrait) {
-                    //font-size: map-get($style, section-corps-grandM) * $agrandissement-plat-mobile;
+                    font-size: 1.4rem;
+                }
+                @media screen and (orientation: landscape) {
+                    //font-size: 1.6rem;            
                 }
                 &:after {
                     display: block;
@@ -116,9 +122,6 @@
                 &.souligne-gaucheDroite:after {
                     transform-origin: 0% 50%;
                 }
-                //&.souligne-droiteGauche:after {
-                //    transform-origin: 100% 50%;
-                //}
             }
         }
         &__detail  {
@@ -138,6 +141,9 @@
                     display: block;
                     font-size: $plat-corps-grandM * $agrandissement-menu-portrait;
                 }
+                @media screen and (orientation: landscape) {
+                    font-size: .9rem;            
+                }
                 span {
                     margin: $plat-margin-grandM;
                     font-family: map-get($style, hors-restaurant-font);
@@ -146,8 +152,11 @@
                     color: $plat-color-grandM;
                     text-align: center;
                     @media screen and (max-width: 600px) and (orientation: portrait) {
-                        display: block;
+                        display: block;         // retour à la ligne du prix
                         font-size: $plat-corps-grandM * $agrandissement-menu-portrait;
+                    }
+                    @media screen and (orientation: landscape) {
+                        font-size: .9rem;            
                     }
                     &:last-child {
                         margin-left: 1rem;      // espace entre plat et prix
