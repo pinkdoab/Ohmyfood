@@ -61,6 +61,11 @@ a {
     font-size: 1.4rem;
   }
 }
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style1 h2 {
+    font-size: 3.6vw;
+  }
+}
 .menu__style1 h2.degrade-texte {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -80,6 +85,11 @@ a {
 @media screen and (orientation: landscape) {
   .menu__style1 h3 {
     font-size: 1.6rem;
+  }
+}
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style1 h3 {
+    font-size: 4.05vw;
   }
 }
 .menu__style1:hover {
@@ -254,6 +264,11 @@ a {
     font-size: 1.4rem;
   }
 }
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style2 h2 {
+    font-size: 3.6vw;
+  }
+}
 .menu__style2 h2.degrade-texte {
   background-image: linear-gradient(to right, #e9810a, #1e3ab4);
   -webkit-background-clip: text;
@@ -274,6 +289,11 @@ a {
 @media screen and (orientation: landscape) {
   .menu__style2 h3 {
     font-size: 1.6rem;
+  }
+}
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style2 h3 {
+    font-size: 4.05vw;
   }
 }
 .menu__style2:hover {
@@ -456,6 +476,11 @@ a {
     font-size: 1.4rem;
   }
 }
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style3 h2 {
+    font-size: 3.6vw;
+  }
+}
 .menu__style3 h2.degrade-texte {
   background-image: radial-gradient(circle at left, #002fff, #0bb9fd);
   -webkit-background-clip: text;
@@ -476,6 +501,11 @@ a {
 @media screen and (orientation: landscape) {
   .menu__style3 h3 {
     font-size: 1.6rem;
+  }
+}
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style3 h3 {
+    font-size: 4.05vw;
   }
 }
 .menu__style3:hover {
@@ -649,6 +679,11 @@ a {
     font-size: 1.4rem;
   }
 }
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style4 h2 {
+    font-size: 3.6vw;
+  }
+}
 .menu__style4 h2.degrade-texte {
   background-image: linear-gradient(to right, #3e9733, #bce6ab);
   -webkit-background-clip: text;
@@ -669,6 +704,11 @@ a {
 @media screen and (orientation: landscape) {
   .menu__style4 h3 {
     font-size: 1.6rem;
+  }
+}
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style4 h3 {
+    font-size: 4.05vw;
   }
 }
 .menu__style4:hover {

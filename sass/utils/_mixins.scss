@@ -27,7 +27,10 @@
             font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-petit-menu-portrait;
         }
         @media screen and (orientation: landscape) {
-            font-size: map-get($style, restaurant-corps-petitM-max);       
+            font-size: map-get($style, restaurant-corps-petitM-max);      
+        }
+        @media screen and (max-height: 500px) and (orientation: landscape) {
+            font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-petit-menu-landscape;     
         }
         &.degrade-texte {
             background-image: map-get($style, restaurant-degrade);
@@ -46,6 +49,9 @@
         }
         @media screen  and (orientation: landscape) {
             font-size: map-get($style, section-corps-petitM-max);
+        }
+        @media screen and (max-height: 500px) and (orientation: landscape) {
+            font-size: map-get($style, section-corps-petitM) * $agrandissement-petit-menu-landscape;     
         }
     }
     &:hover {
