@@ -13,6 +13,10 @@
         min-width: 90vw;
         min-height: 90vw * 1.5;
     }
+    @media screen and (max-height: 500px) and (orientation: landscape) {
+        min-width: 35vw;
+        min-height: 35vw * 1.5;
+    }
     h2 {
         font-family: map-get($style, restaurant-font);
         font-size: map-get($style, restaurant-corps-petitM);
@@ -55,7 +59,8 @@
     padding: map-get($style, padding);
     background-color: map-get($style, fond);
     @media screen  and (max-width: 600px) and (orientation: portrait) {
-        padding: .5rem;
+        padding: 0.5rem;
+        width: 100vw;
     }  
     h2, h4 {
         text-align: center;
@@ -103,6 +108,9 @@
                 @media screen and (max-width: 600px) and (orientation: portrait) {
                     font-size: 1.4rem;
                 }
+                @media screen and (max-height: 500px) and (orientation: landscape) {
+                    font-size: 1.4rem * $agrandissement-grand-menu-landscape;                        
+                }
                 &:after {
                     display: block;
                     content: '';
@@ -133,6 +141,9 @@
                     display: block;
                     font-size: $plat-corps-grandM * $agrandissement-grand-menu-portrait;
                 }
+                @media screen and (max-height: 500px) and (orientation: landscape) {
+                    font-size: $plat-corps-grandM * $agrandissement-grand-menu-landscape;                        
+                }
                 span {
                     margin: $plat-margin-grandM;
                     font-family: map-get($style, hors-restaurant-font);
@@ -142,6 +153,9 @@
                         display: block;         // retour à la ligne du prix
                         text-align: center;
                         font-size: $plat-corps-grandM * $agrandissement-grand-menu-portrait;
+                    }
+                    @media screen and (max-height: 500px) and (orientation: landscape) {
+                        font-size: $plat-corps-grandM * $agrandissement-grand-menu-landscape;                        
                     }
                     &:last-child {
                         margin-left: 1rem;      // espace entre plat et prix

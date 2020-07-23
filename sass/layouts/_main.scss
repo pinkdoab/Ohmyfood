@@ -15,8 +15,8 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        @media screen and (max-width: 600px) and (orientation: portrait) {
-            margin: 0;            
+        @media screen and (max-height: 500px) and (orientation: landscape) {
+            margin: 0 1rem;                        
         }
         > h2 {
             font-weight: normal;

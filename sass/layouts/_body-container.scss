@@ -13,6 +13,11 @@
             margin-top: 0;
             width: 100vw;
             height: $Hpage - map-get($footer, hauteur);
+        }
+        @media screen and (max-height: 500px) and (orientation: landscape) {
+            margin-top: 0;
+            width: 100vw;
+            max-width: 100vw;
         }     
     }
 }
