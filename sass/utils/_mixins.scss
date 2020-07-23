@@ -14,16 +14,16 @@
         min-height: 90vw * 1.5;
     }
     h2 {
-        //margin-top: 1rem;
         font-family: map-get($style, restaurant-font);
         font-size: map-get($style, restaurant-corps-petitM);
+        margin: map-get($style, restaurant-margin-petitM);
         color: map-get($style,restaurant-color);
         font-weight: normal;
         @media screen and (max-width: 600px) and (orientation: portrait) {
             font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-petit-menu-portrait;
         }
         @media screen and (orientation: landscape) {
-            font-size: 1.4rem;            
+            font-size: map-get($style, restaurant-corps-petitM-max);       
         }
         &.degrade-texte {
             background-image: map-get($style, restaurant-degrade);
@@ -41,7 +41,7 @@
             font-size: map-get($style, section-corps-petitM) * $agrandissement-petit-menu-portrait;
         }
         @media screen  and (orientation: landscape) {
-            font-size: 1.6rem;
+            font-size: map-get($style, section-corps-petitM-max);
         }
     }
     &:hover {
