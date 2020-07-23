@@ -39,7 +39,6 @@ a {
   }
 }
 .menu__style1 h2 {
-  margin-top: 1rem;
   font-family: "Devonshire";
   font-size: 2.4vw;
   color: black;
@@ -101,17 +100,14 @@ a {
     font-size: 3rem;
   }
 }
-@media screen and (orientation: landscape) {
-  .menu__style1--large h2, .menu__style1--large h4 {
-    font-size: 2rem;
-  }
-}
 .menu__style1--large h2.degrade-texte, .menu__style1--large h4.degrade-texte {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .menu__style1--large h4 {
   font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 .menu__style1--large .component:hover h3:after {
   transform: scaleX(1);
@@ -130,7 +126,7 @@ a {
 }
 .menu__style1--large .component__titre > h3 {
   font-family: "Kalam";
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: black;
   font-weight: normal;
   text-align: center;
@@ -163,27 +159,27 @@ a {
   justify-content: space-between;
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1--large .component__detail p {
     display: block;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
   }
 }
 .menu__style1--large .component__detail p span {
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 0.2rem 0rem 0rem 0rem;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1--large .component__detail p span {
     display: block;
     text-align: center;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
   }
 }
 .menu__style1--large .component__detail p span:last-child {
@@ -208,7 +204,6 @@ a {
   }
 }
 .menu__style2 h2 {
-  margin-top: 1rem;
   font-family: "Redressed";
   font-size: 2.4vw;
   color: black;
@@ -271,15 +266,14 @@ a {
     font-size: 3rem;
   }
 }
-@media screen and (orientation: landscape) {
-  .menu__style2--large h2, .menu__style2--large h4 {
-    font-size: 2rem;
-  }
-}
 .menu__style2--large h2.degrade-texte, .menu__style2--large h4.degrade-texte {
   background-image: linear-gradient(to right, #e9810a, #1e3ab4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.menu__style2--large h4 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 .menu__style2--large .component:hover h3:after {
   transform: scaleX(1);
@@ -298,7 +292,7 @@ a {
 }
 .menu__style2--large .component__titre > h3 {
   font-family: "Frank Ruhl Libre";
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: normal;
   text-align: center;
   margin: 1.2rem 0rem 1.5rem 0rem;
@@ -330,27 +324,27 @@ a {
   justify-content: space-between;
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Frank Ruhl Libre";
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2--large .component__detail p {
     display: block;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
   }
 }
 .menu__style2--large .component__detail p span {
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Frank Ruhl Libre";
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 0.2rem 0rem 0rem 0rem;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2--large .component__detail p span {
     display: block;
     text-align: center;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
   }
 }
 .menu__style2--large .component__detail p span:last-child {
@@ -384,7 +378,6 @@ a {
   }
 }
 .menu__style3 h2 {
-  margin-top: 1rem;
   font-family: "Cookie";
   font-size: 2.4vw;
   color: #4763a0;
@@ -447,15 +440,14 @@ a {
     font-size: 3rem;
   }
 }
-@media screen and (orientation: landscape) {
-  .menu__style3--large h2, .menu__style3--large h4 {
-    font-size: 2rem;
-  }
-}
 .menu__style3--large h2.degrade-texte, .menu__style3--large h4.degrade-texte {
   background-image: radial-gradient(circle at left, #002fff, #0bb9fd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.menu__style3--large h4 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 .menu__style3--large .component:hover h3:after {
   transform: scaleX(1);
@@ -507,27 +499,27 @@ a {
   justify-content: space-between;
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3--large .component__detail p {
     display: block;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
   }
 }
 .menu__style3--large .component__detail p span {
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 0.2rem 0rem 0rem 0rem;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3--large .component__detail p span {
     display: block;
     text-align: center;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
   }
 }
 .menu__style3--large .component__detail p span:last-child {
@@ -552,7 +544,6 @@ a {
   }
 }
 .menu__style4 h2 {
-  margin-top: 1rem;
   font-family: "Kaushan Script";
   font-size: 2.4vw;
   font-weight: normal;
@@ -613,15 +604,14 @@ a {
     font-size: 3rem;
   }
 }
-@media screen and (orientation: landscape) {
-  .menu__style4--large h2, .menu__style4--large h4 {
-    font-size: 2rem;
-  }
-}
 .menu__style4--large h2.degrade-texte, .menu__style4--large h4.degrade-texte {
   background-image: linear-gradient(to right, #3e9733, #bce6ab);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.menu__style4--large h4 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 .menu__style4--large .component:hover h3:after {
   transform: scaleX(1);
@@ -673,27 +663,27 @@ a {
   justify-content: space-between;
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4--large .component__detail p {
     display: block;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
   }
 }
 .menu__style4--large .component__detail p span {
   margin: 0.2rem 0rem 0rem 0rem;
   font-family: "Kalam";
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 0.2rem 0rem 0rem 0rem;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4--large .component__detail p span {
     display: block;
     text-align: center;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
   }
 }
 .menu__style4--large .component__detail p span:last-child {
