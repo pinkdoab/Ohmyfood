@@ -70,7 +70,10 @@
         color: map-get($style, restaurant-color);
         font-weight: $restaurant-weight;
         @media screen and (max-width: 600px) and (orientation: portrait) {
-            font-size: 3rem;
+            font-size: map-get($style, restaurant-corps-grandM) * $agrandissement-grand-menu-portrait;
+        }
+        @media screen and (max-height: 500px) and (orientation: landscape) {
+            font-size: map-get($style, restaurant-corps-grandM) * $agrandissement-grand-menu-portrait;                        
         }
         &.degrade-texte {
             background-image: map-get($style, restaurant-degrade);
@@ -106,10 +109,10 @@
                 text-align: center;
                 margin: map-get($style, section-margin-grandM);
                 @media screen and (max-width: 600px) and (orientation: portrait) {
-                    font-size: 1.4rem;
+                    font-size: map-get($style, section-corps-grandM);
                 }
                 @media screen and (max-height: 500px) and (orientation: landscape) {
-                    font-size: 1.4rem * $agrandissement-grand-menu-landscape;                        
+                    font-size: map-get($style, section-corps-grandM) * $agrandissement-grand-menu-landscape;                        
                 }
                 &:after {
                     display: block;

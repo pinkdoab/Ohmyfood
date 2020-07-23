@@ -108,6 +108,11 @@ a {
     font-size: 3rem;
   }
 }
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style1--large h2, .menu__style1--large h4 {
+    font-size: 3rem;
+  }
+}
 .menu__style1--large h2.degrade-texte, .menu__style1--large h4.degrade-texte {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -142,12 +147,12 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1--large .component__titre > h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-height: 500px) and (orientation: landscape) {
   .menu__style1--large .component__titre > h3 {
-    font-size: 2.52rem;
+    font-size: 2.16rem;
   }
 }
 .menu__style1--large .component__titre > h3:after {
@@ -294,7 +299,12 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2--large h2, .menu__style2--large h4 {
-    font-size: 3rem;
+    font-size: 3.75rem;
+  }
+}
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style2--large h2, .menu__style2--large h4 {
+    font-size: 3.75rem;
   }
 }
 .menu__style2--large h2.degrade-texte, .menu__style2--large h4.degrade-texte {
@@ -330,12 +340,12 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2--large .component__titre > h3 {
-    font-size: 1.4rem;
+    font-size: 0.9rem;
   }
 }
 @media screen and (max-height: 500px) and (orientation: landscape) {
   .menu__style2--large .component__titre > h3 {
-    font-size: 2.52rem;
+    font-size: 1.62rem;
   }
 }
 .menu__style2--large .component__titre > h3:after {
@@ -491,7 +501,12 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3--large h2, .menu__style3--large h4 {
-    font-size: 3rem;
+    font-size: 5.25rem;
+  }
+}
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style3--large h2, .menu__style3--large h4 {
+    font-size: 5.25rem;
   }
 }
 .menu__style3--large h2.degrade-texte, .menu__style3--large h4.degrade-texte {
@@ -528,12 +543,12 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3--large .component__titre > h3 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-height: 500px) and (orientation: landscape) {
   .menu__style3--large .component__titre > h3 {
-    font-size: 2.52rem;
+    font-size: 1.8rem;
   }
 }
 .menu__style3--large .component__titre > h3:after {
@@ -678,7 +693,12 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4--large h2, .menu__style4--large h4 {
-    font-size: 3rem;
+    font-size: 4.5rem;
+  }
+}
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .menu__style4--large h2, .menu__style4--large h4 {
+    font-size: 4.5rem;
   }
 }
 .menu__style4--large h2.degrade-texte, .menu__style4--large h4.degrade-texte {
@@ -715,12 +735,12 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4--large .component__titre > h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-height: 500px) and (orientation: landscape) {
   .menu__style4--large .component__titre > h3 {
-    font-size: 2.52rem;
+    font-size: 2.16rem;
   }
 }
 .menu__style4--large .component__titre > h3:after {
@@ -874,9 +894,14 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .main .menus {
+    margin: 0;
+  }
+}
 @media screen and (max-height: 500px) and (orientation: landscape) {
   .main .menus {
-    margin: 0 1rem;
+    margin: 0;
   }
 }
 .main .menus > h2 {

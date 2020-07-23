@@ -15,8 +15,11 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        @media screen and (max-width: 600px) and (orientation: portrait) {
+            margin: 0;                      // évite problème Safari
+        }
         @media screen and (max-height: 500px) and (orientation: landscape) {
-            margin: 0 1rem;                        
+            margin: 0;                        
         }
         > h2 {
             font-weight: normal;
