@@ -12,13 +12,12 @@ $bouton: (paddingW: 2rem, paddingH: .5rem, radius: .5rem, margin: 2rem auto 1rem
 $Hpetit-menu: 36vw;
 $Lpetit-menu: $Hpetit-menu * .7;
 
-$agrandissement-menu-portrait: 1.5;
+$agrandissement-petit-menu-portrait: 3.5;
+$agrandissement-grand-menu-portrait: 1.5;
 $agrandissement-menu-landscape: 1.3;
 
 // ------------------ Données communes à tous les menus ----------------------
 $restaurant-weight: normal;
-
-//$plat-corps-grandM: 1.6vw;
 $plat-corps-grandM: .7rem;
 $plat-margin-grandM: .2rem 0rem 0rem 0rem;
 $plat-color-grandM: black;
@@ -32,13 +31,13 @@ $style1: (
             padding: 1rem 3rem, 
             fond: rgb(255, 190, 147, 1),
             restaurant-font: 'Devonshire',
-            restaurant-corps-petitM: 2.7vw,
+            restaurant-corps-petitM: 2.4vw,
             restaurant-corps-grandM: 2rem,
             restaurant-margin-petitM: 0,
             restaurant-margin-grandM: auto,
             restaurant-color: rgb(0, 0, 0, 1),
 
-            section-corps-petitM: 3vw,
+            section-corps-petitM: 2.7vw,
             section-corps-grandM: 1.4rem,
             section-margin-petitM: 1rem 0rem 0rem 0rem,
             section-margin-grandM: 0,
@@ -60,7 +59,7 @@ $style2: (
             padding: 2rem 1rem,             
             fond: rgb(252, 224, 201, 1),
             restaurant-font: 'Redressed',
-            restaurant-corps-petitM: 2.7vw,
+            restaurant-corps-petitM: 2.4vw,
             restaurant-corps-grandM: 2.5rem,
             restaurant-margin-petitM: 0,
             restaurant-margin-grandM: auto,
@@ -68,7 +67,7 @@ $style2: (
 
             restaurant-degrade: linear-gradient(to right, rgb(233, 129, 10), rgb(30, 58, 180)),
 
-            section-corps-petitM: 3vw,
+            section-corps-petitM: 2.7vw,
             section-corps-grandM: 1rem,
             section-margin-petitM: 1rem 0rem 0rem 0rem,
             section-margin-grandM: 1.2rem 0rem 1.5rem 0rem,
@@ -85,7 +84,7 @@ $style3: (
             padding: 2rem 1rem,     
             fond: rgb(235, 240, 241),
             restaurant-font: 'Cookie',
-            restaurant-corps-petitM: 2.7vw,
+            restaurant-corps-petitM: 2.4vw,
             restaurant-corps-grandM: 3.5rem,
             restaurant-margin-petitM: 0,
             restaurant-margin-grandM: auto,
@@ -93,7 +92,7 @@ $style3: (
 
             restaurant-degrade: radial-gradient(circle at left, #002fff, #0bb9fd),
 
-            section-corps-petitM: 3vw,
+            section-corps-petitM: 2.7vw,
             section-corps-grandM: 1rem,
             section-margin-petitM: 1rem 0rem 0rem 0rem,
             section-margin-grandM: 1rem 0rem .5rem 0rem,
@@ -107,14 +106,14 @@ $style4: (
             padding: 2rem 1rem, 
             fond: rgb(255, 255, 255, 1),
             restaurant-font: 'Kaushan Script',
-            restaurant-corps-petitM: 2.5vw,
+            restaurant-corps-petitM: 2.4vw,
             restaurant-corps-grandM: 3rem,
             restaurant-margin-petitM: 0,
             restaurant-margin-grandM: auto,
 
             restaurant-degrade: linear-gradient(to right, rgb(62, 151, 51), rgb(188, 230, 171)),        
 
-            section-corps-petitM: 3vw,
+            section-corps-petitM: 2.7vw,
             section-corps-grandM: 1.2rem,
             section-margin-petitM: 1rem 0rem 0rem 0rem,
             section-margin-grandM: 1rem 0rem .5rem 0rem,

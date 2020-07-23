@@ -41,13 +41,13 @@ a {
 .menu__style1 h2 {
   margin-top: 1rem;
   font-family: "Devonshire";
-  font-size: 2.7vw;
+  font-size: 2.4vw;
   color: black;
   font-weight: normal;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1 h2 {
-    font-size: 4.05vw;
+    font-size: 8.4vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -61,14 +61,14 @@ a {
 }
 .menu__style1 h3 {
   font-family: "Kalam";
-  font-size: 3vw;
+  font-size: 2.7vw;
   margin: 1rem 0rem 0rem 0rem;
   color: black;
   font-weight: normal;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1 h3 {
-    font-size: 4.5vw;
+    font-size: 9.45vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -166,9 +166,6 @@ a {
   font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
-  /*@media screen and (orientation: landscape) {
-      font-size: .9rem;            
-  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1--large .component__detail p {
@@ -181,9 +178,6 @@ a {
   font-family: "Kalam";
   font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
-  /*@media screen and (orientation: landscape) {
-      font-size: .9rem;            
-  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1--large .component__detail p span {
@@ -216,13 +210,13 @@ a {
 .menu__style2 h2 {
   margin-top: 1rem;
   font-family: "Redressed";
-  font-size: 2.7vw;
+  font-size: 2.4vw;
   color: black;
   font-weight: normal;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2 h2 {
-    font-size: 4.05vw;
+    font-size: 8.4vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -237,14 +231,14 @@ a {
 }
 .menu__style2 h3 {
   font-family: "Frank Ruhl Libre";
-  font-size: 3vw;
+  font-size: 2.7vw;
   margin: 1rem 0rem 0rem 0rem;
   color: #e9810a;
   font-weight: normal;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2 h3 {
-    font-size: 4.5vw;
+    font-size: 9.45vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -339,9 +333,6 @@ a {
   font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
-  /*@media screen and (orientation: landscape) {
-      font-size: .9rem;            
-  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2--large .component__detail p {
@@ -354,9 +345,6 @@ a {
   font-family: "Frank Ruhl Libre";
   font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
-  /*@media screen and (orientation: landscape) {
-      font-size: .9rem;            
-  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2--large .component__detail p span {
@@ -398,13 +386,13 @@ a {
 .menu__style3 h2 {
   margin-top: 1rem;
   font-family: "Cookie";
-  font-size: 2.7vw;
+  font-size: 2.4vw;
   color: #4763a0;
   font-weight: normal;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3 h2 {
-    font-size: 4.05vw;
+    font-size: 8.4vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -419,14 +407,14 @@ a {
 }
 .menu__style3 h3 {
   font-family: "Kalam";
-  font-size: 3vw;
+  font-size: 2.7vw;
   margin: 1rem 0rem 0rem 0rem;
   color: #006eff;
   font-weight: normal;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3 h3 {
-    font-size: 4.5vw;
+    font-size: 9.45vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -522,9 +510,6 @@ a {
   font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
-  /*@media screen and (orientation: landscape) {
-      font-size: .9rem;            
-  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3--large .component__detail p {
@@ -537,9 +522,6 @@ a {
   font-family: "Kalam";
   font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
-  /*@media screen and (orientation: landscape) {
-      font-size: .9rem;            
-  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3--large .component__detail p span {
@@ -572,12 +554,12 @@ a {
 .menu__style4 h2 {
   margin-top: 1rem;
   font-family: "Kaushan Script";
-  font-size: 2.5vw;
+  font-size: 2.4vw;
   font-weight: normal;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4 h2 {
-    font-size: 3.75vw;
+    font-size: 8.4vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -592,14 +574,14 @@ a {
 }
 .menu__style4 h3 {
   font-family: "Kalam";
-  font-size: 3vw;
+  font-size: 2.7vw;
   margin: 1rem 0rem 0rem 0rem;
   color: #6ead66;
   font-weight: normal;
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4 h3 {
-    font-size: 4.5vw;
+    font-size: 9.45vw;
   }
 }
 @media screen and (orientation: landscape) {
@@ -694,9 +676,6 @@ a {
   font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
   color: black;
-  /*@media screen and (orientation: landscape) {
-      font-size: .9rem;            
-  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4--large .component__detail p {
@@ -709,9 +688,6 @@ a {
   font-family: "Kalam";
   font-size: 0.7rem;
   margin: 0.2rem 0rem 0rem 0rem;
-  /*@media screen and (orientation: landscape) {
-      font-size: .9rem;            
-  }*/
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4--large .component__detail p span {

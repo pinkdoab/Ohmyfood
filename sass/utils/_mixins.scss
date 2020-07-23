@@ -22,7 +22,7 @@
         color: map-get($style,restaurant-color);
         font-weight: normal;
         @media screen and (max-width: 600px) and (orientation: portrait) {
-            font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-menu-portrait;
+            font-size: map-get($style, restaurant-corps-petitM) * $agrandissement-petit-menu-portrait;
         }
         @media screen and (orientation: landscape) {
             font-size: 1.4rem;            
@@ -40,7 +40,7 @@
         color: map-get($style, section-color-petitM);
         font-weight: normal;
         @media screen and (max-width: 600px) and (orientation: portrait) {
-            font-size: map-get($style, section-corps-petitM) * $agrandissement-menu-portrait;
+            font-size: map-get($style, section-corps-petitM) * $agrandissement-petit-menu-portrait;
         }
         @media screen  and (orientation: landscape) {
             font-size: 1.6rem;
@@ -108,9 +108,6 @@
                 @media screen and (max-width: 600px) and (orientation: portrait) {
                     font-size: 1.4rem;
                 }
-                @media screen and (orientation: landscape) {
-                    //font-size: 1.6rem;            
-                }
                 &:after {
                     display: block;
                     content: '';
@@ -139,11 +136,8 @@
                 color: $plat-color-grandM;
                 @media screen and (max-width: 600px) and (orientation: portrait) {
                     display: block;
-                    font-size: $plat-corps-grandM * $agrandissement-menu-portrait;
+                    font-size: $plat-corps-grandM * $agrandissement-grand-menu-portrait;
                 }
-                /*@media screen and (orientation: landscape) {
-                    font-size: .9rem;            
-                }*/
                 span {
                     margin: $plat-margin-grandM;
                     font-family: map-get($style, hors-restaurant-font);
@@ -152,11 +146,8 @@
                     @media screen and (max-width: 600px) and (orientation: portrait) {
                         display: block;         // retour à la ligne du prix
                         text-align: center;
-                        font-size: $plat-corps-grandM * $agrandissement-menu-portrait;
+                        font-size: $plat-corps-grandM * $agrandissement-grand-menu-portrait;
                     }
-                    /*@media screen and (orientation: landscape) {
-                        font-size: .9rem;            
-                    }*/
                     &:last-child {
                         margin-left: 1rem;      // espace entre plat et prix
                         font-weight: bold;
