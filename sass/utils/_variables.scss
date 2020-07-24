@@ -24,11 +24,11 @@ $plat-margin-grandM: .2rem 0rem 0rem 0rem;
 $plat-color-grandM: black;
 
 $opacite: .3;
-$restaurant-color-eclaicie: rgb(0, 0, 0, 0.3);
+//$restaurant-color-eclaicie: rgb(0, 0, 0, 0.3);
   
 // ---------------------------- Données par MENU -----------------------------
 $style1: (  
-            margin-bottom: 3rem,
+            //margin-bottom: 3rem,
             padding: 1rem 3rem, 
             fond: rgb(255, 190, 147, 1),
             restaurant-font: 'Devonshire',
@@ -55,7 +55,7 @@ $style1: (
 
             logo-corps-petitM: 2rem,
             logo-margin-petitM: 0,
-            logo-color-petitM: rgb(187, 43, 43),
+            //logo-color-petitM: rgb(187, 43, 43),
 );
 
 $style2: (  

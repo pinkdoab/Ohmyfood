@@ -92,7 +92,7 @@ a {
     font-size: 4.05vw;
   }
 }
-.menu__style1:hover {
+.menu__style1:hover, .menu__style1:focus, .menu__style1:active {
   opacity: 0.3;
 }
 .menu__style1--large {
@@ -157,7 +157,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style1--large .component__titre > h3 {
-    font-size: 1.2rem;
+    font-size: 2.16rem;
   }
 }
 @media screen and (max-height: 500px) and (orientation: landscape) {
@@ -296,7 +296,7 @@ a {
     font-size: 4.05vw;
   }
 }
-.menu__style2:hover {
+.menu__style2:hover, .menu__style2:focus, .menu__style2:active {
   opacity: 0.3;
 }
 .menu__style2--large {
@@ -360,7 +360,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style2--large .component__titre > h3 {
-    font-size: 0.9rem;
+    font-size: 1.62rem;
   }
 }
 @media screen and (max-height: 500px) and (orientation: landscape) {
@@ -508,7 +508,7 @@ a {
     font-size: 4.05vw;
   }
 }
-.menu__style3:hover {
+.menu__style3:hover, .menu__style3:focus, .menu__style3:active {
   opacity: 0.3;
 }
 .menu__style3--large {
@@ -573,7 +573,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style3--large .component__titre > h3 {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 }
 @media screen and (max-height: 500px) and (orientation: landscape) {
@@ -711,7 +711,7 @@ a {
     font-size: 4.05vw;
   }
 }
-.menu__style4:hover {
+.menu__style4:hover, .menu__style4:focus, .menu__style4:active {
   opacity: 0.3;
 }
 .menu__style4--large {
@@ -775,7 +775,7 @@ a {
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .menu__style4--large .component__titre > h3 {
-    font-size: 1.2rem;
+    font-size: 2.16rem;
   }
 }
 @media screen and (max-height: 500px) and (orientation: landscape) {

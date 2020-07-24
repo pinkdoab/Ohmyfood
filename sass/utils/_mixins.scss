@@ -54,7 +54,7 @@
             font-size: map-get($style, section-corps-petitM) * $agrandissement-petit-menu-landscape;     
         }
     }
-    &:hover {
+    &:hover, &:focus, &:active {
         opacity: $opacite;     
     }
 }
@@ -93,9 +93,9 @@
         margin-bottom: 1.5rem;
     }
     .component {
-        &:hover h3:after {
-            transform: scaleX(1);                
-        }
+            &:hover h3:after{
+                transform: scaleX(1);                
+            }
         &__titre {
             display: flex;                              // flexbox => filet - titre - filet
             justify-content: space-between;
@@ -115,7 +115,7 @@
                 text-align: center;
                 margin: map-get($style, section-margin-grandM);
                 @media screen and (max-width: 600px) and (orientation: portrait) {
-                    font-size: map-get($style, section-corps-grandM);
+                    font-size: map-get($style, section-corps-grandM) * $agrandissement-grand-menu-landscape;
                 }
                 @media screen and (max-height: 500px) and (orientation: landscape) {
                     font-size: map-get($style, section-corps-grandM) * $agrandissement-grand-menu-landscape;                        

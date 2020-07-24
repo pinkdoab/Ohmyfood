@@ -16,7 +16,7 @@
         justify-content: space-between;
         align-items: center;
         @media screen and (max-width: 600px) and (orientation: portrait) {
-            margin: 0;                      // évite problème Safari
+            margin: 0;                      // évite un problème avec Safari
         }
         @media screen and (max-height: 500px) and (orientation: landscape) {
             margin: 0;                        
